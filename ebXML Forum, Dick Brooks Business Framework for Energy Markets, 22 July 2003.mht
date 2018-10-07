@@ -1,0 +1,957 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: ebXML Forum, Dick Brooks: Business Framework for Energy Markets, 22 July 2003
+Date: Sat, 6 Feb 2010 13:41:06 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CAA732.08B4CAF0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6002.18005
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CAA732.08B4CAF0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ebxmlforum.net/articles/ebFor_Art_20030722_01.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>ebXML Forum, Dick Brooks: Business Framework for =
+Energy Markets, 22 July 2003</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DCONTENT-TYPE>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18882">
+<META name=3DCREATED content=3D20030524;11522461>
+<META name=3DCHANGEDBY content=3D"Alan Kotok">
+<META name=3DCHANGED content=3D20030722;8570231>
+<META name=3DDESCRIPTION content=3D"Author: Dick Brooks">
+<META name=3DKEYWORDS content=3D"ebXML, energy, utilities, IEC">
+<STYLE>P.c3 {
+	FONT-FAMILY: "Arial", sans-serif
+}
+A:link {
+	COLOR: #3333ff
+}
+A:visited {
+	COLOR: #cc0000
+}
+</STYLE>
+</HEAD>
+<BODY lang=3Den-US link=3D#3333ff vLink=3D#cc0000><A name=3Dtop></A>
+<FORM method=3Dpost =
+action=3Dhttp://www.ebxmlforum.org/newsletter/index.php><INPUT=20
+value=3DY type=3Dhidden name=3Demml[4]> <INPUT type=3Dhidden =
+name=3Dlistid>=20
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D20 width=3D800>
+  <COLGROUP>
+  <COL width=3D200>
+  <COL width=3D600>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D800 colSpan=3D2>
+      <P><A href=3D"http://www.ebxmlforum.org/"><IMG border=3D0 =
+name=3DGraphic4=20
+      hspace=3D75 alt=3D"ebXML Forum logo plus text" align=3Dmiddle=20
+      =
+src=3D"http://www.ebxmlforum.org/index_files/ebxmlforumlogotext.jpg"=20
+      width=3D631 height=3D135></A><A =
+href=3D"http://www.ebxmlforum.org/">=20
+  </A></P></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD width=3D200>
+      <P class=3Dc3><B>YES ...</B> <B>Sign me up for the ebXML Forum=20
+      Newsletter</B> </P>
+      <P class=3Dc3>Email Address:<BR><INPUT =
+name=3Demml[email]><BR><INPUT value=3DSubscribe type=3Dsubmit =
+name=3DSubmit> </P>
+      <P class=3Dc3><BR>ebXML Forum does NOT send unsolicitied e-mail. =
+</P></TD>
+    <TD bgColor=3D#ffff99 rowSpan=3D2 width=3D600>
+      <H1><FONT face=3D"Arial, sans-serif"><FONT size=3D5>A =
+Business-to-Business=20
+      Framework for Energy Markets</FONT></FONT></H1>
+      <H4><A=20
+      =
+href=3D"http://www.ebxmlforum.net/articles/ebFor_Art_20030722_01.html#aut=
+hor"><FONT=20
+      face=3D"Arial, sans-serif">Dick Brooks</FONT></A></H4>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><BR></P>
+      <H3><FONT face=3D"Arial, sans-serif">Introduction</FONT></H3>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The headlines are full of stories citing the many faults =
+of=20
+      deregulation in the energy industry, from Enron to California.=20
+      Deregulation, however, has had some noteworthy but less publicized =
+success=20
+      stories, such as the Texas deregulated electricity market=92s use =
+of open=20
+      standards including ebXML. Because of the success in Texas to =
+develop=20
+      infrastructure standards that enable the market to operate in near =
+
+      real-time efficiency, ebXML is now poised to provide the=20
+      business-to-business technical framework for other energy markets=20
+      worldwide undergoing deregulation or liberalization. =
+</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The successful implementation of ebXML, an international=20
+      business-to-business framework, in Texas (as well as in Australia) =
+has=20
+      prompted the development of an international standard framework =
+for energy=20
+      markets in the International Electrotechnical Commission (IEC). =
+IEC is the=20
+      global organization that prepares international standards for all=20
+      electrical, electronic and related technologies. This article =
+provides an=20
+      overview of the ebXML-based IEC framework for deregulated =
+electricity=20
+      market communications, a work in progress in IEC=92s Technical =
+Committee 57,=20
+      Workgroup 16, but begins with the Texas story.</FONT></FONT></P>
+      <H3><FONT face=3D"Arial, sans-serif">Background on utility=20
+      deregulation</FONT></H3>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>In order to appreciate the success of deregulation in =
+Texas and the=20
+      role of its technical infrastructure standards, one must first =
+understand=20
+      the radical changes taking place in deregulated energy markets. =
+Compare a=20
+      vertically integrated utility model with a deregulated (unbundled) =
+model,=20
+      which helps describe the technical infrastructure used in Texas to =
+support=20
+      the deregulated market model.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>One only needs to examine the dramatic affect on prices =
+of long=20
+      distance telephone service to get a sense for the anticipated =
+benefits of=20
+      a deregulated energy market. Competition by long distance =
+telephone=20
+      carriers ensures that prices reflect the real value of long =
+distance=20
+      services. As a result of deregulation, prices for long distance =
+calls have=20
+      fallen from levels as high as US$ 0.35 per minute, or more, to =
+less than=20
+      0.05 per minute. Some regulators within the energy industry =
+believe a=20
+      similar drop in consumer prices is possible with electricity and =
+natural=20
+      gas markets, if competition and market forces are allowed to take =
+hold.=20
+      However, some energy companies and regulators still disagree that =
+energy=20
+      prices will result in lower prices. It may be awhile before =
+sufficient=20
+      empirical data is available to answer the question=20
+      completely.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>In states where energy markets remain regulated it is =
+common to=20
+      find vertically integrated utilities, where the utilities provide =
+one-stop=20
+      shopping for customers. A customer simply needs to make one call =
+to the=20
+      local utility company to sign up for service, report outages, and =
+pay=20
+      their monthly bills. The utility company typically has its own =
+internal=20
+      departments for generating power, transporting and distributing =
+power,=20
+      billing, meter reading and servicing customer accounts<B>.</B> As =
+one can=20
+      imagine, all of these functions are interdependent and information =
+must be=20
+      passed between the various departments to ensure the reliable =
+delivery of=20
+      power and a seamless experience for the customer. Frequently, the =
+same IT=20
+      organization is responsible for ensuring that data passes between =
+the=20
+      various departmental systems in an orderly and timely=20
+      manner.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>In a deregulated energy market everything changes! The =
+functions in=20
+      the energy supply chain (generation, transmission, distribution, =
+billing,=20
+      meter reading and customer service) are frequently unbundled. =
+Instead of=20
+      separate departments performing the various functions, =
+deregulation=20
+      requires separate companies to carry out these same functions, in =
+many=20
+      cases opening the door to competition. </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>Companies are free to produce energy and sell it on an =
+open market.=20
+      Resellers frequently purchase power and resell it to customers =
+that were=20
+      once formerly serviced by the local utility company. Some =
+functions=20
+      typically remain regulated even in deregulated markets, for =
+example, the=20
+      company that owns the wires used to carry electricity to =
+residences and=20
+      commercial properties. All of the companies engaging in the =
+competitive=20
+      functions (primarily generation and energy sales) are given equal=20
+      (non-discriminatory) access to these network =
+resources.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The once relatively simple act of moving data between =
+departmental=20
+      systems within a single company becomes a much more complex task =
+in a=20
+      deregulated market where separate companies, IT organizations and =
+systems=20
+      are required to exchange data across the entire energy supply =
+chain. Of=20
+      course, all of these changes must be accomplished with no negative =
+impact=20
+      to the reliable delivery of power, and made as seamless as =
+possible to the=20
+      consumer. Deregulation causing customer dissatisfaction or (worse) =
+
+      consternation, may force public utility commissions to take =
+action.=20
+      </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>As a result, companies participating in deregulated =
+energy markets=20
+      need to carefully design and develop inter-company business =
+processes and=20
+      technical standards to support the exchange of information. For=20
+      established vertically integrated utilities that are subject to=20
+      deregulation, this will likely require replacement of the old =
+vertically=20
+      integrated business processes/procedures with inter-company =
+equivalents.=20
+      In many cases this process involves a pioneering effort, treading =
+where=20
+      the local utility company and others have never gone before. It =
+can be a=20
+      daunting challenge, but imperative in order for deregulation to =
+work in=20
+      the energy industry.</FONT></FONT></P>
+      <H3><FONT face=3D"Arial, sans-serif">Texas =96 A success =
+story</FONT></H3>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>While many factors led to the success of the deregulated =
+Texas=20
+      electricity market, this article will focus on one success factor, =
+the=20
+      solution for inter-company business processes and data exchange.=20
+      </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>When the Texas market first went into live production in =
+January=20
+      2002, most companies used File Transfer Protocol (FTP) for =
+communicating=20
+      critical business transactions. Market participants needed to send =
+and=20
+      retrieve all of their business data to and from a central mailbox =
+on a=20
+      clearinghouse hub. The Transmission System Operator for the high =
+voltage=20
+      electric grid in Texas, known as the Electric Reliability Council =
+of Texas=20
+      or ERCOT operated this hub. As volumes began to increase on the =
+ERCOT hub,=20
+      lost and duplicate transactions began to place significant demands =
+on=20
+      human resources and the situation rapidly approached an =
+unmanageable=20
+      state. In fact, ERCOT=92s volumes began to exceed 15 million =
+transactions=20
+      per month. </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>Moreover, the transactions handled by ERCOT are often=20
+      mission-critical in nature. Many of the transactions affect a =
+customer=92s=20
+      change of supplier, billing and other functions vital to the =
+market. It=20
+      became apparent that FTP did not provide the robust reliability =
+and=20
+      tracking mechanisms needed by ERCOT to manage the growing monthly=20
+      transaction volumes and a replacement for FTP was=20
+needed.</FONT></FONT></P>
+      <H3><FONT face=3D"Arial, sans-serif">The FTP Replacement =
+Project</FONT></H3>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>In August of 2001 ERCOT initiated a project to replace =
+FTP with a=20
+      more reliable and robust business-to-business solution. ERCOT =
+identified=20
+      several key requirements, which proved influential in the decision =
+to use=20
+      a combination of ebXML and a North American Energy Standards Board =
+(NAESB)=20
+      business-to-business solution, called the Electronic Delivery =
+Mechanism=20
+      (EDM). </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>As often found with Internet-based business-to-business=20
+      implementations security and reliability ranked high on the list =
+of=20
+      requirements, which included:</FONT></FONT></P>
+      <UL>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Access control to prevent unauthorized =
+access</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Confidentiality to prevent snooping of sensitive=20
+        information</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Authentication to ensure the identity of the party =
+sending a=20
+        transaction </FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Integrity to ensure that the business data was not =
+altered in any=20
+        way</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Guaranteed-once-only delivery to prevent=20
+        duplicates</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Positive delivery acknowledgements to ensure that =
+transactions=20
+        are delivered and provide tracking information for auditing=20
+        purposes</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Open industry standards to ensure broad vendor=20
+        support</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Maturity of the chosen solution to minimize risk of =
+cutting edge=20
+        technology</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Support from market participants in =
+Texas</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Auditability of the entire business-to-business=20
+        process</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Easy integration with existing technology =
+infrastructure at ERCOT=20
+        and market participant sites (ERCOT sought a =93drop in=94 =
+replacement for=20
+        FTP)</FONT></FONT></P></LI></UL>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>ERCOT hired a consulting firm with extensive expertise in =
+the=20
+      energy industry, Systrends Inc., to lead the FTP Replacement =
+project.=20
+      After reviewing several business-to-business alternatives, =
+Systrends=20
+      recommended a multi-protocol business-to-business solution using a =
+
+      combination of the ebXML Message Service and NAESB =
+EDM.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The NAESB EDM solution had been used through the North =
+American=20
+      Natural Gas marketplace since 1997 and had proven to be a robust =
+solution=20
+      for =93push only=94 or push-push communications. Many market =
+participants in=20
+      Texas had already implemented a NAESB EDM solution and this became =
+a=20
+      natural choice for ERCOT. However, the NAESB EDM solution lacked =
+the=20
+      ability to support the push-pull mode currently in use by ERCOT =
+and other=20
+      market participants using FTP. ERCOT=92s decision was to replace =
+the=20
+      push-pull functionality of FTP with an ebXML equivalent. This =
+allowed=20
+      ERCOT to support the portion of the market that required push-push =
+using=20
+      NAESB EDM and the other portion of the market that preferred a =
+push-pull=20
+      solution using ebXML.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The push-push and push-pull modes of communication define =
+the way=20
+      trading partners send and receive data. The push-push mode =
+requires each=20
+      trading partner to send data directly to the other trading =
+partners online=20
+      server (each party must have a server online 24x7 to receive =
+data). The=20
+      push-pull mode indicates that the receiving party does not operate =
+an=20
+      online server and cannot receive incoming data. All data destined =
+for the=20
+      recipient must be stored in a mailbox until the recipient is ready =
+to=20
+      receive the data. The trading partner whose data is stored in the =
+mailbox=20
+      initiates a "retrieve" function to pull data from their mailbox, =
+usually=20
+      at specified intervals (e.g. once per day, once per hour). Many =
+value=20
+      added networks (VANs) provide mailbox services to companies using=20
+      electronic data interchange (EDI) to exchange business=20
+      transactions.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>ERCOT=92s FTP Replacement project is nearing its final =
+migration and=20
+      all market participants are expected to replace their FTP =
+solutions with=20
+      ebXML or NAESB EDM by the end of 2003. </FONT></FONT></P>
+      <H3><FONT face=3D"Arial, sans-serif">European Union Adopts Energy=20
+      Deregulation; promotes IEC Standards </FONT></H3>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The European Union continues to evolve from a loose =
+conglomeration=20
+      of separate countries into a cohesive economy with a single =
+currency, the=20
+      Euro, and freer markets, especially in electricity. The EU =
+countries faced=20
+      similar issues with deregulation as in Texas, and like their Texas =
+
+      counterparts, adopted ebXML as part of their =
+solution.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The challenges facing the European Union with regard to =
+electric=20
+      industry deregulation are not that different from those facing the =
+United=20
+      States. In the U.S. individual states maintain jurisdictional =
+control over=20
+      certain aspects of electricity markets, while Federal agencies =
+regulate=20
+      those aspects of the market that cross state boundaries (e.g. =
+interstate=20
+      transmission grids and pipelines).</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>In a manner similar to the natural gas industry in the =
+United=20
+      States, companies operating in the European electricity markets =
+decided to=20
+      establish their own organizations to develop standards for the =
+deregulated=20
+      electricity market. The European Transmission System Operators =
+(ETSO)=20
+      focused on developing a set of standards for scheduling of =
+transmission=20
+      capacity across the entire EU electrical grid. The European =
+Federation of=20
+      Energy Traders (EFET) established a standard for contract terms =
+and=20
+      conditions. The Council of European Electricity Regulators (CEER) =
+provides=20
+      consistent rules to help guide the development of a single EU =
+electricity=20
+      market.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>An organization long known for its reputation as a =
+standards body,=20
+      the International Electrotechnical Commission (IEC), launched an =
+effort=20
+      under its Technical Committee 57 to develop a framework for =
+deregulated=20
+      electricity market communications within Workgroup 16 (WG16). This =
+
+      initiative focuses on the development of a complete technical =
+framework=20
+      focusing on the entire functional stack needed for business-level =
+process=20
+      integration across enterprises. </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The framework is conceptually similar to the ISO OSI =
+Network model=20
+      in which lower layers describe the functions that provide data =
+transport=20
+      while the higher layers of the framework describe the business =
+processes,=20
+      terminology and semantics.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>Each layer of the IEC WG16 framework uses recognized =
+industry=20
+      standards appropriate to each layer. For example, ebXML=92s =
+Message Service=20
+      provides the functionality needed at the lowest layer of the =
+framework=20
+      which needs reliable data exchange. Early research by the WG16 =
+members=20
+      into the use of ebXML in the energy industry led to the discovery =
+of=20
+      ERCOT=92s ebXML implementation, offering evidence of a working =
+solution in=20
+      the Texas market matching the specifications and requirements =
+defined by=20
+      WG16. </FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The full range of ebXML standards are proving useful to =
+the WG16=20
+      framework, including:</FONT></FONT></P>
+      <UL>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Core Components to define common business elements and=20
+        semantics</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Business Process Specifications to define the expected =
+behavior=20
+        of individual business processes</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Collaboration Protocol Profile and Agreements to =
+describe the=20
+        operational rules of engagement between two =
+parties</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>Registry and Repository for storing and retrieving =
+information=20
+        needed to engage in e-commerce transaction =
+processing</FONT></FONT></P>
+        <LI>
+        <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+        size=3D2>The UN/CEFACT modeling methodology endorsed by ebXML to =
+
+        graphically describe business processes used in the deregulated =
+energy=20
+        markets.</FONT></FONT></P></LI></UL>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><FONT face=3D"Arial, =
+sans-serif"><FONT=20
+      size=3D2>The IEC initiative to develop a single framework for =
+deregulated=20
+      electricity market communications is still in its early stage of=20
+      development. However, significant support is being seen across the =
+EU from=20
+      entities such as ETSO, EFET and the European forum for Energy =
+Business=20
+      Information eXchange (EBIX). There is still a significant amount =
+of work=20
+      remaining, but the IEC WG16 framework is already having a profound =
+affect=20
+      on energy market business-to-business solutions across the =
+European=20
+      Union.</FONT></FONT></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><BR></P>
+      <P style=3D"MARGIN-BOTTOM: 0cm"><BR></P>
+      <P><A name=3Dauthor></A><FONT size=3D2><FONT face=3D"Arial, =
+sans-serif"><I>Dick=20
+      Brooks (<A=20
+      =
+href=3D"http://www.tech-comm.com/dbc/">http://www.tech-comm.com/dbc/</A>)=
+ is=20
+      an international business-to-business and cyber security expert =
+with=20
+      extensive experience in the energy industry. He was one of the =
+original=20
+      authors of ebXML=92s Message Service Specification and is a long =
+standing=20
+      member of the North American Energy Standards Board. He was =
+recently=20
+      appointed to serve as a U.S. representative to the IEC WG 16 =
+initiative to=20
+      develop a single framework for deregulated electricity market=20
+      communications. He can be reached at </I><A=20
+      =
+href=3D"mailto:dick@tech-comm.com"><I>dick@tech-comm.com</I></A><I>.</I><=
+/FONT></FONT></P>
+      <P><BR></P></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop width=3D200>
+      <P><BR></P></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>
+      <P><FONT size=3D2><FONT face=3Darial><A=20
+      href=3D"http://www.ebxmlforum.org/">Return to ebXML=20
+      Forum</A><BR><BR>Copyright =A9 2003, <A=20
+      =
+href=3D"http://www.webservices.org/">WebServices.Org</A><BR><BR>Posted: =
+22=20
+      July 2003<BR><BR>[<A=20
+      =
+href=3D"http://www.ebxmlforum.net/articles/ebFor_Art_20030722_01.html#top=
+">top=20
+      of page</A>]</FONT></FONT></P></TD>
+    <TD>
+      <P><BR></P></TD></TR></TBODY></TABLE></FORM>
+<P><BR><BR></P>
+<P><BR><BR><BR><BR></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CAA732.08B4CAF0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ebxmlforum.org/index_files/ebxmlforumlogotext.jpg
+
+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
+BwOHR6BwOBwOPR6P/9k=
+
+------=_NextPart_000_0000_01CAA732.08B4CAF0--
