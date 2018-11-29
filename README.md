@@ -4,7 +4,7 @@ My name is Dick Brooks and I recently took an early retirement from ISO New Engl
 
 <h1>Reliable Energy Analytics (REA)</h1>
 
-Is a Company dedicated to supporting Energy Industry stake holders with their data analytic needs. Focusing primarily on those Companies operating in the New England Control Area, but also capable of supporting other deregulated market areas subjected to FERC Order 1000. Dick Brooks, the Founder of REA, has extensive knowledge of New England Electricity Markets Data and the technologies used to analyze this data, along with expert level cyber security skills/knowledge applicable to the Electric Industry, including NERC CIP 013.
+Is a Company dedicated to supporting Energy Industry stake holders with their data analytic needs. Focusing primarily on those Companies operating in the New England Control Area, but also capable of supporting other deregulated market areas subjected to FERC oversight. Dick Brooks, the Founder of REA, has extensive knowledge of New England Electricity Markets Data and the technologies used to analyze this data, along with expert level cyber security skills/knowledge applicable to the Electric Industry, including NERC CIP 013.
 
 
 
