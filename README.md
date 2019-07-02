@@ -10,5 +10,6 @@ He has been a member of the <a href="http://www.ieee.org/">IEEE</a> and <a href=
 
 Is a Company dedicated to supporting Energy Industry stake holders with their business, technical and data analytic needs. Focusing primarily on those Companies operating in the New England Control Area, but also capable of supporting other deregulated market areas subjected to FERC oversight. Dick Brooks, the Founder of REA, is a technical leader with extensive experience designing and building Business Intelligence (OBIEE), Data Analytic Platforms and Enterprise Architectures. He continues to lead the development of energy industry standards at <a href="http://www.naesb.org">NAESB</a> and in committee meetings where market rules and industry standards are being developed. He is the primary author of the <a href="https://www.energycentral.com/c/em/2019-insights-just-time-capacity-acquisition-through-always-capacity-exchange">"Always on Capacity Exchange"</a> concept under consideration for submission to NAESB as a standards request.
 
+<a href="https://github.com/rjb4standards/Presentations/blob/master/Dick_Brooks_Resume_2019.pdf?raw=true">Resume is available online</a>
 
 
