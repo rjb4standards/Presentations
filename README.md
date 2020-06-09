@@ -8,7 +8,8 @@ Serving under Dave Darnell of <a href="http://www.systrends.com">Systrends</a>  
 Patents filed with the USPTO: <br>
 <a href="https://reliableenergyanalytics.com/sag-patent-pending-info">METHODS FOR VERIFICATION OF SOFTWARE OBJECT AUTHENTICITY AND INTEGRITY</a>
 
-He has been a member of the <a href="http://www.ieee.org/">IEEE</a> and <a href="http://www.acm.org/">ACM</a> for over 30 years. He currently serves within <a href="http://www.naesb.org">NAESB</a> on the Wholesale Electric Quadrant Executive Committee, co-chairs the FERC/NAESB e-forms sub-committee, co-chairs the Business Practices Subcommittee and has been an active member of NAESB’s cybersecurity sub-committee, responsible for the WEQ-012 PKI standards since 2001. He is an active member of the <a href="https://www.energycentral.com/#keywords%3DRichard%252BBrooks%26entity_bundles%3D-all%26sort_type%3Ddate_newest%26page%3D0"> Energy Central Community</a> where he publishes reports, white papers and blog posts.
+He currently serves within <a href="http://www.naesb.org">NAESB</a> as Vice Chairman of the Wholesale Electric Quadrant Executive Committee, co-chairs the FERC/NAESB e-forms sub-committee, co-chairs the Business Practices Subcommittee and has been an active member of NAESB’s cybersecurity sub-committee, responsible for the WEQ-012 PKI standards since 2001. He is an active member of the <a href="https://www.energycentral.com/#keywords%3DRichard%252BBrooks%26entity_bundles%3D-all%26sort_type%3Ddate_newest%26page%3D0"> Energy Central Community</a> where he publishes reports, white papers and blog posts.
+He has been a member of the <a href="http://www.ieee.org/">IEEE</a> and <a href="http://www.acm.org/">ACM</a> for over 30 years.
 
 <h1><a href="https://reliableenergyanalytics.com/">Reliable Energy Analytics (REA)</a></h1>
 
