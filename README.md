@@ -1,3 +1,9 @@
+<h1> Intellectual Property Disclaimer</h1>
+<p>
+The XSDs are provided to you “as is” with no warranties whatsoever, including any warranty of merchantability, non-infringement, or fitness for any particular purpose. The authors of the XSDs disclaim all liability, including liability for infringement of any proprietary rights, relating to use or implementation of information in the XSDs.<br>
+XSD's are licensed under the Creative Commons V4.0
+</p>
+
 <h1>Introduction</h1>
 
 Richard “Dick” Brooks is a <a href="https://www.sei.cmu.edu/"> CMU/SEI</a> certified Professional Software Architect with over 40 years of software engineering accomplishments, primarily serving the Energy industry with solutions for secure message exchange, analytics (both data and cybersecurity) and enterprise architecture design/implementation. He is the Lead Software Engineer responsible for the SAG-PM(TM) software supply chain risk assessment (C-SCRM + SBOM) application used to comply with NERC CIP-010-3, R1, Part 1.6 software verification requirements, following the NIST Cybersecurity Framework V1.1. 
