@@ -27,6 +27,8 @@ Dick is the lead software engineer responsible for REA's software product, the <
 
 Additional information is also available in an <a href="https://www.energycentral.com/c/em/getting-know-your-experts-interview-series-richard-brooks-expert-load-management">Energy Central Experts Forum interview of Dick Brooks </a>conducted in September, 2019.
 
+Dick remains an active member of the Energy Central Community and <a href="https://energycentral.com/members/reputation">is one of only a handful of Community Experts with more than 500,000 views of his Energy Central postings and articles</a>. 
+
 <a href="https://github.com/rjb4standards/Presentations/blob/master/Dick_Brooks_Resume_2019.pdf?raw=true">Resume is available online</a>
 
 
