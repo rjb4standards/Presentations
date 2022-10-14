@@ -1,7 +1,8 @@
 <h1> Intellectual Property Disclaimer</h1>
 <p>
 The XSDs are provided to you “as is” with no warranties whatsoever, including any warranty of merchantability, non-infringement, or fitness for any particular purpose. The authors of the XSDs disclaim all liability, including liability for infringement of any proprietary rights, relating to use or implementation of information in the XSDs.<br>
-XSD's are licensed under the Creative Commons V4.0
+XSD, XML and JSON artifacts are licensed under the Creative Commons V4.0 license
+  All artifacts in this respository are Copyright Reliable Energy Analytics LLC (REA) 2018-2022
 </p>
 
 <h1>Introduction</h1>
