@@ -2,7 +2,7 @@
 <p>
 The XSDs are provided to you “as is” with no warranties whatsoever, including any warranty of merchantability, non-infringement, or fitness for any particular purpose. The authors of the XSDs disclaim all liability, including liability for infringement of any proprietary rights, relating to use or implementation of information in the XSDs.<br>
 XSD, XML and JSON artifacts are licensed under the Creative Commons V4.0 license
-  All artifacts in this respository are Copyright Reliable Energy Analytics LLC (REA) 2018-2022
+  All artifacts in this respository are Copyright Business Cyber Guardian (TM) a Reliable Energy Analytics LLC Company (REA) 2018-2025
 </p>
 
 <h1>Introduction</h1>
