@@ -1,6 +1,6 @@
 # Resources
 
-- [Trust Control Plande for Public Trust Infrastructure](https://www.energycentral.com/intelligent-utility/post/a-trust-control-plane-for-public-trust-infrastructure-pti-t4Li00S02OlbhOu)
+- [Trust Control Plane for Public Trust Infrastructure](https://www.energycentral.com/intelligent-utility/post/a-trust-control-plane-for-public-trust-infrastructure-pti-t4Li00S02OlbhOu)
 - [SAG-CTR Trust Trinity - Ensuring Trust Registry Integrity](https://www.linkedin.com/posts/richard-dick-brooks-8078241_where-does-a-scitt-product-trust-registry-share-7423372733096402944-9_KY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABMsYcB3I6zhtjaqBqVcePEOQqxsZNzj5E)
 - [Trust Registry Social Welfare](https://www.linkedin.com/feed/update/urn:li:activity:7168953097795411968/)
 - [Trust Anchors](https://www.linkedin.com/feed/update/urn:li:activity:7154118587606003712/)
