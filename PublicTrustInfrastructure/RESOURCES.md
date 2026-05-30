@@ -9,3 +9,4 @@
 - [ZTDNAID URI Scheme Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-02.txt)
 - [SAG-CTR Announcement](https://www.einpresswire.com/article/545051889/announcing-the-sag-ctr-tm-community-trust-registry-for-digitally-signed-software)
 - [SAG-CTR Visual Model](https://www.linkedin.com/posts/richard-dick-brooks-8078241_visual-model-below-of-an-ietf-scitt-community-share-7409615005698048001-v7xj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABMsYcB3I6zhtjaqBqVcePEOQqxsZNzj5E)
+- [Who decides what is trusted in SAG-CTR](https://www.linkedin.com/posts/richard-dick-brooks-8078241_in-the-spirit-of-never-trust-always-verify-share-7450903193804296192-Tg7c/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABMsYcB3I6zhtjaqBqVcePEOQqxsZNzj5E)
