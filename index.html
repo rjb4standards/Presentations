@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Business Cyber Guardian® – Verifiable Trust Overview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #050814;
+      --card-bg: #0f172a;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.15);
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --success: #4ade80;
+      --border: #1f2937;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: radial-gradient(circle at top, #0b1120 0, #020617 45%, #000 100%);
+      color: var(--text-main);
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo img {
+      height: 60px;
+      width: auto;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+    }
+    nav a:hover {
+      border-color: var(--border);
+      color: var(--text-main);
+    }
+    .cta-btn {
+      background: var(--accent);
+      color: #0b1120;
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+    .cta-btn:hover {
+      filter: brightness(1.1);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.8fr);
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .hero-title {
+      font-size: clamp(2.1rem, 3vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .hero-highlight {
+      color: var(--accent);
+    }
+    .hero-sub {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      max-width: 540px;
+      margin-bottom: 18px;
+    }
+    .hero-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+    .pill {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--text-muted);
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .hero-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .hero-card {
+      background: radial-gradient(circle at top left, var(--accent-soft), #020617 55%);
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      padding: 18px 16px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+    }
+    .hero-card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hero-card-title span.badge {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      color: var(--accent);
+    }
+    .hero-card-body {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .hero-card-metric {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      margin-top: 8px;
+    }
+    .hero-card-metric span.label {
+      color: var(--text-muted);
+    }
+    .hero-card-metric span.value {
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .section {
+      margin-bottom: 32px;
+    }
+    .section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin: 4px 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    @media (max-width: 900px) {
+      .grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 640px) {
+      .grid-3 {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      padding: 14px 12px;
+      font-size: 0.9rem;
+    }
+    .card h3 {
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 4px 0;
+    }
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .tag {
+      font-size: 0.7rem;
+      padding: 2px 7px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.6fr);
+      gap: 18px;
+    }
+    @media (max-width: 800px) {
+      .two-col {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .list {
+      margin: 8px 0;
+      padding-left: 18px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .list li {
+      margin: 4px 0;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .badge-soft {
+      font-size: 0.75rem;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px dashed var(--border);
+      color: var(--text-muted);
+    }
+
+    .cta-panel {
+      margin-top: 32px;
+      padding: 18px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(15, 23, 42, 0.95));
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .cta-panel-text {
+      font-size: 0.95rem;
+      max-width: 520px;
+    }
+    .cta-panel-text strong {
+      color: var(--accent);
+    }
+    .cta-panel-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .cta-secondary {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .section-image {
+      margin: 24px 0;
+    }
+    .section-image img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- HEADER WITH UPDATED LOGO -->
+    <header>
+      <div class="logo">
+        <img src="https://img1.wsimg.com/isteam/ip/c4ee1ba0-4198-4032-8573-fbd28fe12912/00000-BCG-LOGO-REGisteredBIGGER.jpg/:/rs=h:90,cg:true,m/qt=q:95"
+             alt="Business Cyber Guardian Logo">
+        <div>
+          <div style="font-weight:600;">Business Cyber Guardian®</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">
+            Verifiable Trust for Software & Digital Infrastructure
+          </div>
+        </div>
+      </div>
+      <nav>
+        <a href="#trust">Trust Scores</a>
+        <a href="#zero-trust">Zero Trust</a>
+        <a href="#products">Products</a>
+        <a href="#regulation">Regulations</a>
+        <button class="cta-btn" onclick="window.location.href='https://reliableenergyanalytics.com/contact-us'">
+          Contact Us for a Demo and Product Briefing
+        </button>
+      </nav>
+    </header>
+
+    <!-- HERO IMAGE -->
+    <div class="section-image">
+      <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
+           alt="Handshake symbolizing trust">
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <div class="hero-title">
+          Make your software <span class="hero-highlight">verifiably trustworthy</span>.
+        </div>
+        <p class="hero-sub">
+          Business Cyber Guardian® helps you prove your software is secure, score how trustworthy it is,
+          and block anything untrustworthy—using a patented Trust Registry aligned with emerging U.S. cybersecurity rules.
+        </p>
+        <div class="hero-pills">
+          <span class="pill">Digital UL-style trust labels</span>
+          <span class="pill">Credit score–like trust scoring (SAGScore)</span>
+          <span class="pill">Evidence locker for audits & litigation</span>
+        </div>
+        <div class="hero-actions">
+          <button class="cta-btn" onclick="window.location.href='https://reliableenergyanalytics.com/contact-us'">
+            Contact Us for a Demo and Product Briefing
+          </button>
+          <span class="hero-note">Built and operated in the U.S. • Production-ready since 2021</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">
+          SAG‑CTR Trust Registry
+          <span class="badge">Public Trust Infrastructure</span>
+        </div>
+        <p class="hero-card-body">
+          A tamper‑proof registry that stores security evidence, issues trust labels, and lets your customers
+          instantly verify how trustworthy your products really are.
+        </p>
+        <ul class="list">
+          <li>Cryptographically sealed SBOM, vulnerability, and provenance data</li>
+          <li>Glasswing Verified Product trust labels</li>
+          <li>Continuous assurance signals for Zero Trust enforcement</li>
+        </ul>
+        <div class="hero-card-metric">
+          <span class="label">Example: flagship product trust score</span>
+          <span class="value">SAGScore: 92 / 100 (High Trust)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST SECTION IMAGE -->
+    <div class="section-image">
+      <img src="https://images.unsplash.com/photo-1556741533-f6acd647d2fb?auto=format&fit=crop&w=1200&q=80"
+           alt="Digital trust and verification">
+    </div>
+
+    <!-- TRUST SECTION -->
+    <section class="section" id="trust">
+      <h2>Trust scores, not just risk scores</h2>
+      <p>
+        Most cybersecurity tools tell you how much <strong>risk</strong> you have. We focus on how much
+        <strong>trustworthiness</strong> you can prove.
+      </p>
+      <p>
+        Our SAGScore works like a credit score for software security. It combines SBOM analysis, vulnerability data,
+        supplier identity, and product history into a single, easy‑to‑understand trust score.
+      </p>
+
+      <div class="grid-3" style="margin-top:14px;">
+        <div class="card">
+          <h3>SAGScore: Trust in one number</h3>
+          <p>
+            A weighted score that shows how trustworthy a product is, based on real evidence—not marketing claims.
+          </p>
+          <ul class="list">
+            <li>SBOM completeness and quality</li>
+            <li>Known vulnerabilities and remediation</li>
+            <li>Supplier identity and track record</li>
+            <li>Cryptographically sealed results</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Evidence you can show to anyone</h3>
+          <p>
+            Every trust score is backed by verifiable evidence stored in our Trust Registry, ready for customers,
+            auditors, and regulators.
+          </p>
+          <ul class="list">
+            <li>Shareable trust labels and reports</li>
+            <li>Tamper‑proof evidence history</li>
+            <li>Support for procurement and due diligence</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>From “trust us” to “verify us”</h3>
+          <p>
+            Move from promises to proof. Give buyers and regulators a simple way to verify your security posture.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Digital UL‑style label</span>
+            <span class="tag">Buyer‑friendly trust summary</span>
+            <span class="tag">Continuous updates</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZERO TRUST IMAGE -->
+    <div class="section-image">
+      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=1200&q=80"
+           alt="Cybersecurity shield representing Zero Trust">
+    </div>
+
+    <!-- ZERO TRUST SECTION -->
+    <section class="section" id="zero-trust">
+      <h2>Making Zero Trust actually enforceable</h2>
+      <div class="two-col">
+        <div>
+          <p>
+            Zero Trust usually checks <strong>who</strong> you are and <strong>whether</strong> you’re allowed in.
+            We add the missing question:
+          </p>
+          <p style="margin-top:6px;"><strong>“Is the software itself trustworthy?”</strong></p>
+          <p>
+            Our ZTBouncer gateways use trust scores and registry evidence to block untrusted software from accessing
+            your APIs, databases, and cloud services.
+          </p>
+          <ul class="list">
+            <li>Allow only verified, trusted services to connect</li>
+            <li>Block unknown or low‑trust components automatically</li>
+            <li>Use trust evidence as a live policy input</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>ZTBouncer Gateways</h3>
+          <p>
+            Zero Trust “bouncers” that sit in front of critical systems and only let trusted software through.
+          </p>
+          <ul class="list">
+            <li>Postgres database gateway</li>
+            <li>REST API gateway</li>
+            <li>AI/ML and SaaS service gateways (roadmap)</li>
+          </ul>
+          <div class="badge-row">
+            <span class="badge-soft">Powered by SAG‑CTR trust evidence</span>
+            <span class="badge-soft">Integrates with existing Zero Trust stacks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS SECTION IMAGE -->
+    <div class="section-image">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981d?auto=format&fit=crop&w=1200&q=80"
+           alt="Digital identity and verification">
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section" id="products">
+      <h2>What we offer</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>SAG‑PM: Product trust analysis</h3>
+          <p>
+            A platform that analyzes your software and produces the trust evidence needed for scores, labels,
+            and regulatory reporting.
+          </p>
+          <ul class="list">
+            <li>SBOM ingestion and analysis</li>
+            <li>Vulnerability and remediation tracking</li>
+            <li>Provenance and supplier verification</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>SAG‑CTR: Trust Registry</h3>
+          <p>
+            Our patented Public Trust Infrastructure registry that stores evidence, issues trust labels,
+            and powers trust‑based decisions.
+          </p>
+          <ul class="list">
+            <li>Tamper‑proof evidence storage</li>
+            <li>Glasswing Verified Product labels</li>
+            <li>Continuous assurance signals</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>ZTDNAID: Digital DNA identity</h3>
+          <p>
+            A digital identity for your software components and services—like a passport for Zero Trust.
+          </p>
+          <ul class="list">
+            <li>Unique identity for products and services</li>
+            <li>Linked to trust scores and evidence</li>
+            <li>Usable as a Zero Trust policy input</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGULATION SECTION -->
+    <section class="section" id="regulation">
+      <h2>Built for emerging U.S. cybersecurity regulations</h2>
+      <p>
+        Our Trust Registry and scoring model are designed to align with the direction of U.S. cybersecurity policy,
+        so you can stay ahead of requirements instead of scrambling to catch up.
+      </p>
+      <div class="two-col" style="margin-top:12px;">
+        <div>
+          <ul class="list">
+            <li>CISA Secure‑by‑Design and Secure Software Attestation</li>
+            <li>FDA SBOM and Vulnerability Disclosure Reporting for medical devices</li>
+            <li>SEC cyber‑incident materiality and disclosure expectations</li>
+            <li>Executive Order 14028 and OMB Zero Trust guidance</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Why this matters</h3>
+          <p>
+            Regulators are moving from “tell us you’re secure” to “prove you’re secure.” Our platform gives you
+            the evidence, scores, and labels to do exactly that.
+          </p>
+          <div class="badge-row">
+            <span class="badge-soft">Support for audits and investigations</span>
+            <span class="badge-soft">Procurement‑ready trust documentation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA PANEL -->
+    <div class="cta-panel">
+      <div class="cta-panel-text">
+        <strong>Ready to move from promises to proof?</strong><br />
+        Let’s talk about how to give your customers, regulators, and partners a simple, verifiable way to trust
+        your software and digital services.
+      </div>
+      <div class="cta-panel-actions">
+        <button class="cta-btn" onclick="window.location.href='https://reliableenergyanalytics.com/contact-us'">
+          Contact Us for a Demo and Product Briefing
+        </button>
+        <button class="cta-secondary">Download a one‑page summary</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>© 2026 Business Cyber Guardian® – The Cyber Trust People</div>
+      <div>Business Cyber Guardian® is a registered trademark. U.S.‑built, U.S.‑operated Public Trust Infrastructure.</div>
+    </footer>
+  </div>
+</body>
+</html>
